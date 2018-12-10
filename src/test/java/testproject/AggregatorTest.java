@@ -33,7 +33,7 @@ public class AggregatorTest {
         Aggregator agr = new Aggregator();
         double val = 20;
         agr.addValue(val);
-        arg.reset();
+        agr.reset();
         assertThat(agr.getSum()).isEqualTo(0);
     }
 }
